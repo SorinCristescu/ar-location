@@ -9,7 +9,7 @@ window.onload = () => {
 function staticLoadPlaces() {
   return [
     {
-      name: 'Pokèmon',
+      name: 'AR location based',
       location: {
         // decomment the following and add coordinates:
         lat: 55.649142,
