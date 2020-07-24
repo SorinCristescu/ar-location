@@ -53,22 +53,22 @@ var models = [
   {
     url: './assets/magnemite/scene.gltf',
     scale: '0.5 0.5 0.5',
-    position: '0 0 -5',
-    info: 'Magnemite',
     rotation: '0 180 0',
+    position: '0 1.6 -5',
+    info: 'Magnemite',
   },
   {
     url: './assets/articuno/scene.gltf',
     scale: '0.2 0.2 0.2',
     rotation: '0 180 0',
-    position: '0 0 -5',
+    position: '0 1.6 -5',
     info: 'Articuno',
   },
   {
     url: './assets/dragonite/scene.gltf',
     scale: '0.08 0.08 0.08',
     rotation: '0 180 0',
-    position: '0 0 -5',
+    position: '0 1.6 -5',
     info: 'Dragonite',
   },
 ];
