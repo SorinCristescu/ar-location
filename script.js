@@ -20,55 +20,55 @@ function staticLoadPlaces() {
 }
 
 var models = [
-  //   {
-  //     url: './assets/nissan/scene.gltf',
-  //     scale: '1 1 1',
-  //     rotation: '0 90 0',
-  //     position: '0 0 -5',
-  //     info: 'Nissan GTMs Max',
-  //   },
-  //   {
-  //     url: './assets/spinosaurus/scene.gltf',
-  //     scale: '1 1 1',
-  //     rotation: '0 90 0',
-  //     position: '0 0 -5',
-  //     info:
-  //       'Spinosaurus, dinosaur that lived in what now is North Africa 112 to 93.5 million years ago.',
-  //   },
-  //   {
-  //     url: './assets/velociraptor/scene.gltf',
-  //     scale: '1 1 1',
-  //     rotation: '0 90 0',
-  //     position: '0 0 -5',
-  //     info:
-  //       'Velociraptor, 71 million years ago during the latter part of the Cretaceous Period.',
-  //   },
-  //   {
-  //     url: './assets/warrior/scene.gltf',
-  //     scale: '2 2 2',
-  //     rotation: '0 90 0',
-  //     position: '0 0 -5',
-  //     info: 'Warrior',
-  //   },
+  {
+    url: './assets/nissan/scene.gltf',
+    scale: '1 1 1',
+    rotation: '0 90 0',
+    position: '0 1.6 15',
+    info: 'Nissan GTMs Max',
+  },
+  {
+    url: './assets/spinosaurus/scene.gltf',
+    scale: '1 1 1',
+    rotation: '0 90 0',
+    position: '0 1.6 15',
+    info:
+      'Spinosaurus, dinosaur that lived in what now is North Africa 112 to 93.5 million years ago.',
+  },
+  {
+    url: './assets/velociraptor/scene.gltf',
+    scale: '1 1 1',
+    rotation: '0 90 0',
+    position: '0 1.6 15',
+    info:
+      'Velociraptor, 71 million years ago during the latter part of the Cretaceous Period.',
+  },
+  {
+    url: './assets/warrior/scene.gltf',
+    scale: '2 2 2',
+    rotation: '0 90 0',
+    position: '0 1.6 15',
+    info: 'Warrior',
+  },
   {
     url: './assets/magnemite/scene.gltf',
     scale: '0.5 0.5 0.5',
     rotation: '0 180 0',
-    position: '0 1.6 -5',
+    position: '0 1.6 15',
     info: 'Magnemite',
   },
   {
     url: './assets/articuno/scene.gltf',
     scale: '0.2 0.2 0.2',
     rotation: '0 180 0',
-    position: '0 1.6 -5',
+    position: '0 1.6 15',
     info: 'Articuno',
   },
   {
     url: './assets/dragonite/scene.gltf',
     scale: '0.08 0.08 0.08',
     rotation: '0 180 0',
-    position: '0 1.6 -5',
+    position: '0 1.6 15',
     info: 'Dragonite',
   },
 ];
@@ -109,7 +109,7 @@ function renderPlaces(places) {
     setModel(models[modelIndex], model);
 
     model.setAttribute('animation-mixer', '');
-
+    console.log('model', model);
     document
       .querySelector('button[data-action="change"]')
       .addEventListener('click', function () {
