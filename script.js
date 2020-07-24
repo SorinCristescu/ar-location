@@ -12,8 +12,8 @@ function staticLoadPlaces() {
       name: 'AR location based',
       location: {
         // decomment the following and add coordinates:
-        lat: 55.649084,
-        lng: 12.555048,
+        lat: 55.647656,
+        lng: 12.552143,
       },
     },
   ];
